@@ -1,14 +1,13 @@
 def get_matrix(n, m, value):
     matrix = []
     for i in range(n):
-        matrix.append([])
-        if i == 0 or i < 0:
-            matrix.remove([])
+        matrix1 = []
         for j in range(m):
-            matrix.append(value)
-
-    return matrix
+            matrix1.append(value)
+            matrix.append(matrix1)
+        return matrix
 result1 = get_matrix(2,2,10)
 result2 = get_matrix(3,5,42)
-result3 = get_matrix(4,2,13)
+result3 = get_matrix(99,8,13)
+
 print(result1, result2,result3, sep='\n')
