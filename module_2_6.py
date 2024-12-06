@@ -1,4 +1,3 @@
-from turtle import Turtle, Screen
 import sys
 
 numbers = int(input('Oh shit here we go again.. введи число от 1 до 20: '))
@@ -13,4 +12,3 @@ for i in range(1, 21):
             password.extend([i, j])
 
 print('All my homies use this password: ', *password, sep='')
-
