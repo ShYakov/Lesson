@@ -1,7 +1,3 @@
-from itertools import count
-from traceback import print_tb
-
-
 def single_root_words(root_word, *other_words):
     same_words= []
     root_word_lower = root_word.lower()
